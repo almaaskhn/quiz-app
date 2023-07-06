@@ -4,8 +4,7 @@ import EndScreen from './Components/EndScreen';
 import Quiz from './Components/Quiz';
 import { useState } from 'react';
 import { QuizContext } from './Helpers/Contexts';
-import {useState} from "react";  // kr 
-
+import {useState} from "react"; 
 function App() {
   const [gameState, setGameState] = useState("menu");
   const [score, setScore] = useState(0);
